@@ -100,7 +100,8 @@ def saveScores():
     scoreFile.write('\nGame date: ')
     scoreFile.write(str(stamp))
     scoreFile.write(' Scores: ')
-    scoreFile.write(str(leaderBoard)) 
+    scoreFile.write(str(leaderBoard))
+    scoreFile.write('\n')
     scoreFile.close()
     
 def showScore():    
